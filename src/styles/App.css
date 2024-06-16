@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+}
+
+.App {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgb(12, 72, 68);
+}
+
+.weather {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    row-gap: 5px;
+}
+
+.btn {
+    font-size: 18px;
+    width: 50%;
+    min-height: 30px;
+    margin: 0 auto 5px;
+    background-color: rgb(202, 218, 211);
+    border: 0;
+    cursor: pointer;
+}
+
+.no-weather {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: auto 0;
+}
